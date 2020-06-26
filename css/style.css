@@ -1,0 +1,30 @@
+.para{
+	background-color: yellow;
+	color: green;
+}
+#para{
+	background-color: brown;
+	color: pink;
+}
+.first,.second,.third,.forth{
+	border: 2px solid #000;
+	margin: 2px;
+	width: 400px;
+	text-align:center;
+	padding: 5px;
+
+}
+/*.first img,.second img,.third img,.forth img{
+	width: 200px;
+	padding: 10px;
+}*/
+img{
+	width: 200px;
+	padding: 10px;
+}
+.parent{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+   	align-items: center;
+}
