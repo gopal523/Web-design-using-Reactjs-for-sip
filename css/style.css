@@ -19,7 +19,13 @@
 	padding: 10px;
 }*/
 img{
-	width: 200px;
+	width:70%;
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	border: 2px solid black;
+	border-radius: 50%;
+	box-shadow: 2px 3px 4px red;
 	padding: 10px;
 }
 .parent{
@@ -34,7 +40,13 @@ img{
 	.parent{
 		flex-direction: column;
 	}
-	.first{
+	.first,.second,.third,.forth{
+		background-color: #c45e45;
+	}
+	.main{
+		flex-direction: column;
+	}
+	.profile,.details,.pfirst,.psecond,.pthird,.dfirst,.dsecond,.dthird,.dforth{
 		background-color: #c45e45;
 	}
 }
@@ -44,13 +56,28 @@ img{
 		flex-direction: row-reverse;
 		justify-content: space-between;
 	}
-	.first{
+	.first,.second,.third,.forth{
+		background-color: #ddd;
+		border-radius: 20px;
+		width: 300px;
+	}
+	.main{
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+	.profile,.details{
 		background-color: #ddd;
 		border-radius: 20px;
 		width: 300px;
 	}
 }
 /* Resume Properties*/
+.main{
+	border: 2px solid #000;
+	position: absolute;
+	width: 100%;
+	padding: 2px;
+}
 .profile{
 	display: flex;
 	flex-direction: column;
@@ -72,7 +99,7 @@ img{
 	direction: flex;
 	flex-direction: row;
 	border: 2px solid #000;
-	width: 70%;
+	width: 68%;
 	float: right;
 	padding: 5px;
 }
